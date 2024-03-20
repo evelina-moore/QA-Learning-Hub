@@ -1,3 +1,3 @@
-# QA-Learning-Hub Ev
+# QA-Learning-Hub
 https://evelina-moore.github.io/QA-Learning-Hub/
-bbb
+Зміна для Стаса
