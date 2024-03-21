@@ -1,0 +1,36 @@
+.register {
+  text-align: center;
+}
+.register h3 {
+  font-size: 34px;
+}
+.input h4 {
+  font-size: 24px;
+  margin: 5px;
+}
+.register input {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: 400px;
+  height: 50px;
+  border: none;
+}
+button {
+  width: 200px;
+  height: 40px;
+  margin: 20px 0 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  color: #0c0c0e;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  transition: transform 0.3s ease;
+}
+button:hover {
+  background-color: #8a8a8a5b;
+  transform: scale(1.05);
+}

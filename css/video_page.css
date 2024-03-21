@@ -1,0 +1,16 @@
+.video-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+h2 {
+  color: black;
+}
+main {
+  margin: 50px auto;
+}
+img {
+  transition: transform 0.3s ease;
+}
+img:hover {
+  transform: scale(1.1);
+}

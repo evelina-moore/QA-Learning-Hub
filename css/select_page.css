@@ -1,23 +1,22 @@
-.container {
-  width: 80%;
-  margin: 0 auto;
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
   text-align: center;
-  padding: 20px;
 }
-
-.block {
-  background-color: #f0f0f0;
-  /* Колір фону блоку */
-  padding: 20px 0 0;
-  margin-bottom: 10px;
-}
-h2 {
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
   transition: transform 0.3s ease;
 }
-h2:hover {
+nav ul li:last-child {
+  display: inline-block;
+  margin-right: none;
+}
+nav ul li:hover {
   transform: scale(1.1);
 }
-h2 a {
+nav ul li a {
   font-size: 20px;
   text-decoration: none;
   color: black;
@@ -25,9 +24,15 @@ h2 a {
   /* border: 2px solid #000000; */
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
+  background-color: #fdfdfd;
   font-weight: bold;
   cursor: pointer;
 }
-h2 a:hover {
+nav ul li a:hover {
   background-color: #8a8a8a5b;
+}
+h1 {
+  color: black;
+  text-align: center;
+  margin: 60px 0;
 }

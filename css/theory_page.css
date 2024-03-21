@@ -1,0 +1,12 @@
+main {
+  max-width: 1440px;
+  margin: 100px auto;
+  padding: 0 30px;
+}
+
+.charact {
+  font-weight: bold;
+}
+main img {
+  width: 800px;
+}
