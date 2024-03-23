@@ -1,62 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/header_footer.css">
+    <link rel="stylesheet" href="../css/contacts.css">
     <title>Контакти</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #007bff; /* синій фон */
-            color: #fff; /* білий текст */
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.8); /* прозорий білий фон */
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* тінь */
-        }
-        h1 {
-            text-align: center;
-        }
-        p {
-            margin-bottom: 20px;
-        }
-        form {
-            max-width: 600px;
-            margin: 0 auto;
-        }
-        input[type="text"],
-        input[type="email"],
-        textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 20px;
-            border: none;
-            border-radius: 5px;
-            box-sizing: border-box;
-        }
-        textarea {
-            height: 150px;
-        }
-        input[type="submit"] {
-            background-color: #fff; /*  фон */
-            color: #007bff; /* текст */
-            border: none;
-            border-radius: 5px;
-            padding: 10px 20px;
-            cursor: pointer;
-        }
-        input[type="submit"]:hover {
-            background-color: #e9ecef; /*  фон при наведенні */
-        }
-    </style>
 </head>
+
 <body>
+    <header>
+        <div class="nav">
+            <div>
+                <img src="../Emblema.png" alt="Емблема">
+            </div>
+    
+            <div>
+                <a href="../index.html">Home page</a>
+            </div>
+        </div>
+    </header>
+
     <div class="container">
         <h1>Зв'яжіться з нами</h1>
         <p>Будь ласка, залиште ваше повідомлення, і ми з вами зв'яжемося найближчим часом.</p>
@@ -64,8 +32,13 @@
             <input type="text" name="name" placeholder="Ваше ім'я" required>
             <input type="email" name="email" placeholder="Ваша електронна пошта" required>
             <textarea name="message" placeholder="Ваше повідомлення" required></textarea>
-            <input type="submit" value="Відправити"> <a href="Home.html">На головну</a>
+            <input type="submit" value="Відправити"> <a href="Home.html"></a>
         </form>
     </div>
+
+    <footer>
+        <p>&copy; 2024 QA IT-Step</p>
+    </footer>
 </body>
+
 </html>
