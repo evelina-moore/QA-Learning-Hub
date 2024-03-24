@@ -8,9 +8,9 @@ arrayOfInputs.forEach((element) => {
 
 function inputController(element, statusOfInput) {
   if (statusOfInput === true) {
-    disableNextLink(element);
-  } else {
     enableNextLink(element);
+  } else {
+    disableNextLink(element);
   }
 }
 
