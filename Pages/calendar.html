@@ -1,43 +1,107 @@
-<title>Календар подій</title>
-<style>
-    table {
-        width: 100%;
-        border-collapse: collapse;
-    }
-    th, td {
-        border: 1px solid #ddd;
-        padding: 8px;
-        text-align: left;
-    }
-    th {
-        background-color: #f2f2f2;
-    }
-</style>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/header_footer.css">
+    <link rel="stylesheet" href="../css/calendar.css">
+    <link rel="shortcut icon" href="./fav.png" type="image/x-icon">
+    <title>Календар подій</title>
 </head>
+
 <body>
 
-<h2>Календар подія</h2>
+    <header>
+        <div class="nav">
+            <div>
+                <img src="../Emblema.png" alt="Емблема">
+            </div>
 
-<table>
-<thead>
-    <tr>
-        <th>Дата</th>
-        <th>Подія</th>
-    </tr>
-</thead>
-<tbody>
-    <tr>
-        <td>Дата</td>
-        <td>Тех-чек</td>
-    </tr>
-    <tr>
-        <td>Дата</td>
-        <td>Технічна співбесіда</td>
-    </tr>
-    <tr>
-        <td>Дата</td>
-        <td>Аналіз пройдених співбесід</td>
-    </tr>
-    
-</tbody>
-</table>
+            <div>
+                <a href="../index.html">Home page</a>
+            </div>
+        </div>
+    </header>
+
+    <h1>Календар подій</h1>
+    <main>
+        <div class="event">
+            <h2>QA (Manual) — безоплатна інтернатура з можливістю продовження карʼєри в HYS Enterprise</h2>
+            <table>
+                <tr>
+                    <td>Відбудеться</td>
+                    <td>7 квітня (неділя)</td>
+                </tr>
+                <tr>
+                    <td>Місце</td>
+                    <td>Online</td>
+                </tr>
+                <tr>
+                    <td>Вартість</td>
+                    <td>Безкоштовно</td>
+                </tr>
+            </table>
+            <input class="inputTofind" type="checkbox" name="my-checkbox" id="my-checkbox">
+            <label for="my-checkbox">Піду</label>
+            <a href="https://dou.ua/calendar/50126/" id="my-link">Зареєструватись</a>
+
+        </div>
+
+        <div class="event">
+            <h2>Онлайн тренінг для початківців <br><br>«Python: швидкий старт»</h2>
+            <table>
+                <tr>
+                    <td>Відбудеться</td>
+                    <td>9 квітня (вівторок)</td>
+                </tr>
+                <tr>
+                    <td>Місце</td>
+                    <td>Online</td>
+                </tr>
+                <tr>
+                    <td>Вартість</td>
+                    <td>Безкоштовно</td>
+                </tr>
+            </table>
+            <input type="checkbox" name="my-checkbox" id="my-checkbox">
+            <label for="my-checkbox">Піду</label>
+            <a href="https://dou.ua/calendar/50166/" onclick="return false;">Зареєструватись</a>
+        </div>
+
+        <div class="event">
+            <h2>Онлайн-конференція AWS Notes. <br>Chapter 2. Building Applications</h2>
+
+            <table>
+                <tr>
+                    <td>Відбудеться</td>
+                    <td>16 квітня (вівторок)</td>
+                </tr>
+                <tr>
+                    <td>Місце</td>
+                    <td>Online</td>
+                </tr>
+                <tr>
+                    <td>Вартість</td>
+                    <td>Безкоштовно</td>
+                </tr>
+            </table>
+            <input type="checkbox" name="my-checkbox" id="my-checkbox">
+            <label for="my-checkbox">Піду</label>
+            <a id="registration-link" href="https://dou.ua/calendar/50163/">Зареєструватись</a>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 QA IT-Step</p>
+    </footer>
+
+    <script src="../index.js"></script>
+</body>
+
+</html>

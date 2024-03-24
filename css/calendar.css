@@ -1,0 +1,33 @@
+h1 {
+  margin-top: 100px;
+  text-align: center;
+}
+main {
+  margin: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.event {
+  max-width: 300px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 10px 30px 30px;
+}
+table {
+  margin-bottom: 20px;
+}
+.event a {
+  margin-left: 30px;
+  text-decoration: none;
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: #fdfdfd;
+  font-weight: bold;
+  cursor: pointer;
+}
+.event a:hover {
+  background-color: #8a8a8a5b;
+}
