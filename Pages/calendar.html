@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/header_footer.css">
     <link rel="stylesheet" href="../css/calendar.css">
-    <link rel="shortcut icon" href="./fav.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../fav.png" type="image/x-icon">
     <title>Календар подій</title>
 </head>
 
@@ -29,12 +29,16 @@
 
     <h1>Календар подій</h1>
     <main>
+        <!-- Event 1 -->
         <div class="event">
+            <div class="event1" id="openModal1">
+                <img src="../Image/icons8-знак-информации-в-квадрате-32.png" alt="info" class="info">
+            </div>
             <h2>QA (Manual) — безоплатна інтернатура з можливістю продовження карʼєри в HYS Enterprise</h2>
             <table>
                 <tr>
                     <td>Відбудеться</td>
-                    <td>7 квітня (неділя)</td>
+                    <td><b>7 квітня (неділя)</b></td>
                 </tr>
                 <tr>
                     <td>Місце</td>
@@ -47,16 +51,55 @@
             </table>
             <input class="inputTofind" type="checkbox" name="my-checkbox" id="my-checkbox">
             <label for="my-checkbox">Піду</label>
-            <a href="https://dou.ua/calendar/50126/" id="my-link" onclick="return false" target="_blank">Зареєструватись</a>
+            <a href="https://dou.ua/calendar/50126/" id="my-link" onclick="return false"
+                target="_blank">Зареєструватись</a>
+        </div>
+        <!-- Modal 1 -->
+        <div class="modal-overlay1" id="modalOverlay1">
+            <div class="modal1" id="modal">
+                <div class="modal-close" id="modalClose1">
+                    <img src="../Image/icons8-закрыть-окно-48.png" alt="">
+                </div>
 
+                <p>Наша інтернатура — це не лише можливість здобути цінний досвід, але й шанс зайняти посаду QA Manual у
+                    разі успішного
+                    завершення програми.
+                    <br><br>
+                    <b>Вимоги до кандидатів:</b>
+                </p>
+                <ul>
+                    <li>Теоретичні знання в області теорії тестування (QA);</li>
+                    <li>Поглиблене розуміння клієнт-серверної архітектури та практичні навички роботи з REST API;</li>
+                    <li>Поглибленні теоретичні знання MS SQL;</li>
+                    <li>Базові практичні навички роботи з CLI;</li>
+                    <li>Розуміння мікросервісної архітектури;</li>
+                    <li>Розуміння CI/CD;</li>
+                    <li>Аналітичний склад розуму та вміння вирішувати проблеми, уважність;</li>
+                    <li>Здатність працювати в команді;</li>
+                    <li>Рівень володіння англійською мовою на рівні Upper-Intermediate (як письмово, так і усно).</li>
+                </ul>
+
+                <p><b>Ми пропонуємо:</b></p>
+                <ul>
+                    <li>Здобування практичного досвіду на проектах;</li>
+                    <li>Можливість тестувати свої ідеї, очолювати ініціативи;</li>
+                    <li>Знайомство з досвідченими фахівцями, готовими поділитися своїми знаннями;</li>
+                    <li>Можливість отримати контракт з HYS Enterprise у якості Junior спеціаліста мінімум на 1 рік.</li>
+                </ul>
+                </p>
+            </div>
         </div>
 
+        <!-- Event 2 -->
         <div class="event">
+            <div class="event2" id="openModal2">
+                <img src="../Image/icons8-знак-информации-в-квадрате-32.png" alt="info" class="info">
+            </div>
             <h2>Онлайн тренінг для початківців <br><br>«Python: швидкий старт»</h2>
             <table>
                 <tr>
                     <td>Відбудеться</td>
-                    <td>9 квітня (вівторок)</td>
+                    <td><b>9 квітня (вівторок)</b></td>
                 </tr>
                 <tr>
                     <td>Місце</td>
@@ -67,18 +110,69 @@
                     <td>Безкоштовно</td>
                 </tr>
             </table>
-            <input type="checkbox" name="my-checkbox" id="my-checkbox">
+            <input class="inputTofind" type="checkbox" name="my-checkbox" id="my-checkbox">
             <label for="my-checkbox">Піду</label>
-            <a href="https://dou.ua/calendar/50166/" onclick="return false;">Зареєструватись</a>
+            <a href="https://dou.ua/calendar/50166/" id="my-link" onclick="return false"
+                target="_blank">Зареєструватись</a>
+        </div>
+        <!-- Modal 2 -->
+        <div class="modal-overlay2" id="modalOverlay2">
+            <div class="modal2" id="modal">
+                <div class="modal-close" id="modalClose2">
+                    <img src="../Image/icons8-закрыть-окно-48.png" alt="">
+                </div>
+
+                <p><b>Python</b> — універсальна мова програмування, яку успішно використовують як BackEnd
+                    веброзробники і тестувальники, так і
+                    DevOps спеціалісти, розробники ігор, Data Scientists тощо. При цьому вона вважається дуже простою в
+                    опануванні і її
+                    часто радять новачкам в ІТ.
+                    <br><br>
+                    <b>Програма тренінгу:</b>
+                </p>
+                <ul>
+                    <li>Основи IDE PyCharm при розробці мовою Python</li>
+                    <li>Основні конструкції мови програмування Python</li>
+                    <li>Базові знання написання «чистого» коду мовою Python</li>
+                    <li>Робота з файлами у Python</li>
+                    <li>Написання консольного застосунку, який вмітиме «чистити звалище файлів» — папку «Викачане» на
+                        вашому ПК</li>
+                </ul>
+
+                <p><b>Про ментора:</b></p>
+                <p>Костянтин Зівенко — Python BackEnd Developer у проєкті waylight.me, — це стартап із США з українським
+                    корінням.
+                    <br><br>
+                    Костянтин — класичний приклад світчера:
+                </p>
+                <ul>
+                    <li>отримав три вищі освіти: інженерну (радіоінженер), економічну (банківська справа) та
+                        технологічну (харчова хімія:
+                        дієтологія та безпека харчування);</li>
+                    <li>викладав у ВНЗ і згодом працював управлінцем у великих компаніях (максимальна кількість
+                        підлеглих — близько 10 000
+                        осіб).</li>
+                </ul>
+                <p>Декілька років тому вирішив повністю змінити своє життя — перейти на дистанційну роботу та жити біля
+                    підніжжя гір на
+                    березі моря. Згадав математику, вивчив англійську, почав вивчати Python. Зараз Костянтин живе в
+                    Чорногорії.</p>
+            </div>
         </div>
 
+
+        <!-- Event 3 -->
         <div class="event">
+            <div class="event3" id="openModal3">
+                <img src="../Image/icons8-знак-информации-в-квадрате-32.png" alt="info" class="info">
+            </div>
+
             <h2>Онлайн-конференція AWS Notes. <br>Chapter 2. Building Applications</h2>
 
             <table>
                 <tr>
                     <td>Відбудеться</td>
-                    <td>16 квітня (вівторок)</td>
+                    <td><b>16 квітня (вівторок)</b></td>
                 </tr>
                 <tr>
                     <td>Місце</td>
@@ -89,9 +183,49 @@
                     <td>Безкоштовно</td>
                 </tr>
             </table>
-            <input type="checkbox" name="my-checkbox" id="my-checkbox">
+            <input class="inputTofind" type="checkbox" name="my-checkbox" id="my-checkbox">
             <label for="my-checkbox">Піду</label>
-            <a id="registration-link" href="https://dou.ua/calendar/50163/">Зареєструватись</a>
+            <a href="https://dou.ua/calendar/50163/" id="my-link" onclick="return false"
+                target="_blank">Зареєструватись</a>
+        </div>
+
+        <!-- Modal #3 -->
+        <div class="modal-overlay3" id="modalOverlay3">
+            <div class="modal3" id="modal">
+                <div class="modal-close" id="modalClose3">
+                    <img src="../Image/icons8-закрыть-окно-48.png" alt="">
+                </div>
+
+                <p><b>AWS Notes</b> — це серія онлайн-конференцій від AWS User Group Ukraine, де кожен івент є окремим
+                    розділом
+                    клауду AWS, що
+                    дозволяє зануритися у світ AWS проєктів. Під час доповідей (Notes) учасники мають можливість
+                    дізнатися про найкращі
+                    практики та кейси, які допомагають розвивати українське та світове IT.
+                    <br><br>
+                    Цього квітня івент, присвячений темі Building Application, об’єднає українських та світових
+                    спікерів, щоб поділитися
+                    викликами, складнощами, досвідом та інсайтами у побудові додатків.
+                    <br><br>
+                    <b>Що очікувати від нового розділу AWS Notes:</b>
+                </p>
+                <ul>
+                    <li>1 день віртуальної конференції</li>
+                    <li>5 Tech Notes, під час яких спікери детально розкриють свої теми</li>
+                    <li>2 короткі Snap Talks, під час яких спікери поділяться своїми розробками pet проєктів та
+                        інсайтами їх створення</li>
+                    <li>понад 500 фанів AWS з різних компаній</li>
+                </ul>
+
+                <p><b>Спікери:</b></p>
+                <ul>
+                    <li>Юрій Безсонов, Senior Partner Solutions Architect в AWS</li>
+                    <li>Дмитро Хмеленко, Senior Backend Developer у Preply</li>
+                    <li>Юліана Стефанішина, Software Engineer в AWS</li>
+                    <li>Radovan Baćović, Staff Data Engineer в GitLab та інші</li>
+                </ul>
+                </p>
+            </div>
         </div>
 
 
@@ -102,6 +236,7 @@
     </footer>
 
     <script src="../index.js"></script>
+    <script src="../js/modal.js"></script>
 </body>
 
 </html>
