@@ -29,11 +29,13 @@
     <div class="container">
         <h1>Зв'яжіться з нами</h1>
         <p>Будь ласка, залиште ваше повідомлення, і ми з вами зв'яжемося найближчим часом.</p>
-        <form>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="15d8256b-4d77-4576-9a78-c3eb1abc812d">
+
             <input type="text" name="name" placeholder="Ваше ім'я" required>
             <input type="email" name="email" placeholder="Ваша електронна пошта" required>
             <textarea name="message" placeholder="Ваше повідомлення" required></textarea>
-            <input type="submit" value="Відправити"> <a href="Home.html"></a>
+            <input type="submit" name="send" value="Відправити"> <a href="Home.html"></a>
         </form>
     </div>
 
