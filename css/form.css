@@ -48,3 +48,17 @@ input[type="submit"]:hover {
   background-color: #8a8a8a5b;
   transform: scale(1.05);
 }
+
+.errors ul {
+  margin-top: 0px;
+}
+
+.errors p {
+  margin-bottom: 10px;
+}
+
+.container .errors {
+  transition: all 0.3s;
+  opacity: 0.1;
+  display: none;
+}
