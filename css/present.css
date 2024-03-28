@@ -1,0 +1,22 @@
+main {
+  max-width: 1440px;
+  margin: 100px 0;
+  text-align: center;
+}
+main a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+main a:hover {
+  background-color: #8a8a8a5b;
+}
+main ul {
+  list-style-type: none;
+}
+main ul li {
+  margin-bottom: 40px;
+}
