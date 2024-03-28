@@ -31,12 +31,23 @@
     <div class="container">
             <h1>Register</h1>
         <form>
-            <input type="text" name="name" placeholder="Ваше ім'я" required>
-            <input type="text" name="name" placeholder="Ваше прізвище" required>
-            <input type="email" name="email" placeholder="Ваша електронна пошта" required>
-            <input type="password" name="password" placeholder="Ваш пароль" required>
+            <input id="userName" type="text" name="name" placeholder="Ваше ім'я" required>
+            <input id="userSurname" type="text" name="name" placeholder="Ваше прізвище" required>
+            <input id="userEmail" type="email" name="email" placeholder="Ваша електронна пошта" required>
+            <input id="userPassword" type="password" name="password" placeholder="Ваш пароль" required oninput="checkForChanges()">
 
-            <input type="submit" value="Відправити"> <a href="Home.html"></a>
+            <div class="errors">
+                <p>Password must contains:</p>
+                <ul>
+                    <li id="upper">At least one uppercase</li>
+                    <li id="lower">At least one lowercase</li>
+                    <li id="special_char">At least one special symbol</li>
+                    <li id="number">At least one number</li>
+                    <li id="length">At least 8 characters</li>
+                </ul>
+            </div>
+
+            <input id="submitButton" type="submit" value="Відправити" onclick="return submitForm()"> <a href="Home.html"></a>
         </form>
     </div>
 
@@ -52,6 +63,7 @@
         </div>
     </footer>
 
+    <script src="../js/registation.js"></script>
 </body>
 
 </html>
