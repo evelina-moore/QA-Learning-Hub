@@ -138,32 +138,32 @@ main {
   transform: scale(1.05);
 }
 
-section {
-  padding: 20px;
-  margin: 20px auto;
-  background-color: #fff;
-  /* Білий фон для розділів замітка*/
-  max-width: 600px;
-  border-radius: 10px;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-section:hover {
-  background-color: #8a8a8a5b;
-  transform: scale(1.05);
-}
 .page {
   text-decoration: none;
   color: black;
 }
 footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   background-color: #333;
   color: #fff;
   text-align: center;
-  padding: 0;
+  padding: 10px 0 0;
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
+}
+footer div {
+  display: flex;
+  flex-direction: column;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 5px;
+}
+footer a:hover {
+  color: #0d5fa9;
 }
