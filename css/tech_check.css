@@ -3,21 +3,24 @@ h1 {
   text-align: center;
 }
 .wrapper {
-  margin: 10px 30px;
+  margin: 10px 30px 100px;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
   text-align: center;
 }
 .wrapper img {
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .wrapper a {
   text-decoration: none;
   color: black;
   font-size: 20px;
+  width: 200px;
   padding: 10px;
+  margin: 10px auto 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
@@ -25,4 +28,9 @@ h1 {
 .wrapper a:hover {
   background-color: #8a8a8a5b;
   transform: scale(1.05);
+}
+.test-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
